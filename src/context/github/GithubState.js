@@ -21,7 +21,7 @@ if(process.env.NODE_ENV !== 'production') {
   githubClientSecret = process.env.REACT_APP_GITHUB_CLIENT_SECRET;
 } else {
   // In Production Environment
-  githubClientId = process.env._GITHUB_CLIENT_ID;
+  githubClientId = process.env.GITHUB_CLIENT_ID;
   githubClientSecret = process.env.GITHUB_CLIENT_SECRET;
 }
 
