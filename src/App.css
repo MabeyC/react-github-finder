@@ -2,6 +2,7 @@
 
 /* Global Styles */
 :root {
+  --navbar-color: #88df95;
   --primary-color: #dc3545;
   --dark-color: #333333;
   --light-color: #f4f4f4;
@@ -243,6 +244,10 @@ img {
   opacity: 0.9;
   background: var(--light-color);
   color: #333;
+}
+
+.bg-navbar {
+  background: var(--navbar-color);
 }
 
 .btn-primary,
