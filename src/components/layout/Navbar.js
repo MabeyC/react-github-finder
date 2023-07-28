@@ -9,7 +9,7 @@ const Navbar = () => {
 		return (
 			<nav className="navbar bg-navbar">
 				<h1>
-				<img src={icon} alt="icon-image" className="icon-image" />
+				<img src={icon} alt="icon" className="icon-image" />
 				{" " + title}
 				</h1>
 				<ul>
