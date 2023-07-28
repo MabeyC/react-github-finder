@@ -99,6 +99,12 @@ img {
   text-align: left;
 }
 
+.icon-image {
+  width: 24px;
+  height: 24px;
+  aspect-ratio: 1/1;
+}
+
 /* Center All */
 .all-center {
   display: flex;
@@ -368,7 +374,7 @@ table th {
 }
 
 .navbar a {
-  color: #fff;
+  color: var(--dark-color);
   padding: 0.45rem;
   margin: 0 0.25rem;
 }

@@ -1,13 +1,15 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import Icon from './icon.png'
 
-const Navbar = ({icon, title}) => {
+const Navbar = () => {
+	const title = 'Github Search';
+	const icon = Icon;
 
 		return (
 			<nav className="navbar bg-navbar">
 				<h1>
-				<i className={icon} />
+				<img src={icon} alt="icon-image" className="icon-image" />
 				{" " + title}
 				</h1>
 				<ul>
@@ -21,16 +23,5 @@ const Navbar = ({icon, title}) => {
 			</nav>
 		)
 }
-
-// Default props for the component
-Navbar.defaultProps = {
-	title: 'Github Finder',
-	icon: 'fa fa-github'
-};
-// Typed props for the component
-Navbar.propTypes = {
-	title: PropTypes.string.isRequired,
-	icon: PropTypes.string.isRequired 
-};
 
 export default Navbar

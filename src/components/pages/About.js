@@ -4,8 +4,7 @@ const About = () => {
   return (
     <Fragment>
       <h1>About This App</h1>
-      <p>App to search Github users</p>
-      <p>Created using React</p>
+      <p>React Search Tool for Github</p>
       <p>Version: 1.0.1</p>
     </Fragment>
   )
